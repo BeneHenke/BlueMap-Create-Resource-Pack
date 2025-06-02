@@ -93,69 +93,70 @@ for facing in directions:
 non_diagonal_belt_states = [
     [
         {"part": "start"},
-        "createbluemap:block/belt/start_both"
+        "create:block/belt/start"
     ],
     [
         {"OR": [{"part": "middle"}, {"part": "pulley"}]},
-        "createbluemap:block/belt/middle_both"
+        "create:block/belt/middle"
     ],
     [
         {"part": "end"},
-        "createbluemap:block/belt/end_both"
+        "create:block/belt/end"
     ]
 ]
 
 for facing in directions:
     for state in non_diagonal_belt_states:
-        output["multipart"].append({
-            "when": {
-                "AND": [
-                    state[0],
-                    {"facing": facing, "slope": "horizontal"}
-                ]
-            },
-            "apply": {
-                "model": state[1],
-                "y": get_rotation(facing)
-            }
-        })
+        for suffix in ["", "_bottom"]:
+            output["multipart"].append({
+                "when": {
+                    "AND": [
+                        state[0],
+                        {"facing": facing, "slope": "horizontal"}
+                    ]
+                },
+                "apply": {
+                    "model": state[1] + suffix,
+                    "y": get_rotation(facing)
+                }
+            })
 
-        model = state[1]
-        if facing == "west" or facing == "north":
-            if "start" in model:
-                model = "createbluemap:block/belt/end_both"
-            elif "end" in model:
-                model = "createbluemap:block/belt/start_both"
+            model = state[1]
+            if facing == "west" or facing == "north":
+                if "start" in model:
+                    model = "create:block/belt/end"
+                elif "end" in model:
+                    model = "create:block/belt/start"
 
-        output["multipart"].append({
-            "when": {
-                "AND": [
-                    state[0],
-                    {"facing": facing, "slope": "vertical"}
-                ]
-            },
-            "apply": {
-                "model": model,
-                "y": get_rotation(facing),
-                "x": 90
-            }
-        })
+            output["multipart"].append({
+                "when": {
+                    "AND": [
+                        state[0],
+                        {"facing": facing, "slope": "vertical"}
+                    ]
+                },
+                "apply": {
+                    "model": model + suffix,
+                    "y": get_rotation(facing),
+                    "x": 90
+                }
+            })
 
-        path_parts = state[1].split("/")
-        model = "/".join(path_parts[:-1] + ["sideways_"+path_parts[-1]])
+            path_parts = state[1].split("/")
+            model = "/".join(path_parts[:-1] + ["sideways_"+path_parts[-1]])
 
-        output["multipart"].append({
-            "when": {
-                "AND": [
-                    state[0],
-                    {"facing": facing, "slope": "sideways"}
-                ]
-            },
-            "apply": {
-                "model": model,
-                "y": get_rotation(facing)
-            }
-        })
+            output["multipart"].append({
+                "when": {
+                    "AND": [
+                        state[0],
+                        {"facing": facing, "slope": "sideways"}
+                    ]
+                },
+                "apply": {
+                    "model": model + suffix,
+                    "y": get_rotation(facing)
+                }
+            })
 
 
 # Pulley
