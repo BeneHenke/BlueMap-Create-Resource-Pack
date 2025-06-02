@@ -89,7 +89,7 @@ for facing in directions:
         add_diagonal_facing(state, facing)
         output["multipart"].append(state)
 
-# Horizontal/Vertical belts
+# Horizontal/Vertical/Sideways belts
 non_diagonal_belt_states = [
     [
         {"part": "start"},
@@ -141,7 +141,21 @@ for facing in directions:
             }
         })
 
-# TODO: sideways belts
+        path_parts = state[1].split("/")
+        model = "/".join(path_parts[:-1] + ["sideways_"+path_parts[-1]])
+
+        output["multipart"].append({
+            "when": {
+                "AND": [
+                    state[0],
+                    {"facing": facing, "slope": "sideways"}
+                ]
+            },
+            "apply": {
+                "model": model,
+                "y": get_rotation(facing)
+            }
+        })
 
 
 # Pulley
@@ -239,7 +253,7 @@ for facing in directions:
         add_diagonal_facing(state, facing)
         output["multipart"].append(state)
 
-# Horizontal/Vertical casing
+# Horizontal/Vertical/Sideways casing
 non_diagonal_casing_states = [
     [
         {"part": "start"},
