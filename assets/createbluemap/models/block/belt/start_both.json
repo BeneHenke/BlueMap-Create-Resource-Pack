@@ -1,0 +1,11 @@
+{
+  "loader": "forge:composite",
+  "children": {
+    "top": {
+      "parent": "create:block/belt/start"
+    },
+    "bottom": {
+      "parent": "create:block/belt/start_bottom"
+    }
+  }
+}
