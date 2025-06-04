@@ -1,0 +1,46 @@
+{
+  "multipart": [
+    {
+      "when": {"OR": [{"facing": "down"}, {"facing": "up"}]},
+      "apply": {
+        "model": "create:block/water_wheel/block"
+      }
+    },
+    {
+      "when": {"OR": [{"facing": "down"}, {"facing": "up"}]},
+      "apply": {
+        "model": "create:block/water_wheel/wheel"
+      }
+    },
+    {
+      "when": {"OR": [{"facing": "west"}, {"facing": "east"}]},
+      "apply": {
+        "model": "create:block/water_wheel/block",
+        "x": 90,
+        "y": 90
+      }
+    },
+    {
+      "when": {"OR": [{"facing": "west"}, {"facing": "east"}]},
+      "apply": {
+        "model": "create:block/water_wheel/wheel",
+        "x": 90,
+        "y": 90
+      }
+    },
+    {
+      "when": {"OR": [{"facing": "north"}, {"facing": "south"}]},
+      "apply": {
+        "model": "create:block/water_wheel/block",
+        "x": 90
+      }
+    },
+    {
+      "when": {"OR": [{"facing": "north"}, {"facing": "south"}]},
+      "apply": {
+        "model": "create:block/water_wheel/wheel",
+        "x": 90
+      }
+    }
+  ]
+}
