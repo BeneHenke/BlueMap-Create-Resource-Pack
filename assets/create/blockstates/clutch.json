@@ -1,0 +1,67 @@
+{
+  "multipart": [
+    {
+      "when": {"axis": "x", "powered": false},
+      "apply": {
+        "model": "create:block/clutch/block",
+        "x": 90,
+        "y": 90
+      }
+    },
+    {
+      "when": {"axis": "x", "powered": true},
+      "apply": {
+        "model": "create:block/clutch/block_powered",
+        "x": 90,
+        "y": 90
+      }
+    },
+    {
+      "when": {"axis": "x"},
+      "apply": {
+        "model": "create:block/shaft",
+        "x": 90,
+        "y": 90
+      }
+    },
+    {
+      "when": {"axis": "y", "powered": false},
+      "apply": {
+        "model": "create:block/clutch/block"
+      }
+    },
+    {
+      "when": {"axis": "y", "powered": true},
+      "apply": {
+        "model": "create:block/clutch/block_powered"
+      }
+    },
+    {
+      "when": {"axis": "y"},
+      "apply": {
+        "model": "create:block/shaft"
+      }
+    },
+    {
+      "when": {"axis": "z", "powered": false},
+      "apply": {
+        "model": "create:block/clutch/block",
+        "x": 90
+      }
+    },
+    {
+      "when": {"axis": "z", "powered": true},
+      "apply": {
+        "model": "create:block/clutch/block_powered",
+        "x": 90
+      }
+    },
+    {
+      "when": {"axis": "z"},
+      "apply": {
+        "model": "create:block/shaft",
+        "x": 90
+      }
+    }
+  ]
+}
