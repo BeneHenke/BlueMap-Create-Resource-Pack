@@ -1,0 +1,51 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "create:block/blaze_burner/block"
+      }
+    },
+    {
+      "when": {"blaze": "smouldering"},
+      "apply": {
+        "model": "create:block/blaze_burner/blaze/inert"
+      }
+    },
+    {
+      "when": {"OR": [{"blaze": "fading"}, {"blaze": "kindled"}]},
+      "apply": {
+        "model": "create:block/blaze_burner/blaze/idle"
+      }
+    },
+    {
+      "when": {"OR": [{"blaze": "fading"}, {"blaze": "kindled"}]},
+      "apply": {
+        "model": "create:block/blaze_burner/rods_small"
+      }
+    },
+    {
+      "when": {"OR": [{"blaze": "fading"}, {"blaze": "kindled"}]},
+      "apply": {
+        "model": "create:block/blaze_burner/rods_large"
+      }
+    },
+    {
+      "when": {"blaze": "seething"},
+      "apply": {
+        "model": "create:block/blaze_burner/blaze/super"
+      }
+    },
+    {
+      "when": {"blaze": "seething"},
+      "apply": {
+        "model": "create:block/blaze_burner/superheated_rods_small"
+      }
+    },
+    {
+      "when": {"blaze": "seething"},
+      "apply": {
+        "model": "create:block/blaze_burner/superheated_rods_large"
+      }
+    }
+  ]
+}
