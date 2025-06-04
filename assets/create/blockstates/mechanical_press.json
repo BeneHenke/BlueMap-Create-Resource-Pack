@@ -1,0 +1,37 @@
+{
+  "multipart": [
+    {
+      "when": {"OR": [{"facing": "east"}, {"facing": "west"}]},
+      "apply": {
+        "model": "create:block/mechanical_press/block",
+        "y": 90
+      }
+    },
+    {
+      "when": {"OR": [{"facing": "north"}, {"facing": "south"}]},
+      "apply": {
+        "model": "create:block/mechanical_press/block"
+      }
+    },
+    {
+      "when": {"OR": [{"facing": "east"}, {"facing": "west"}]},
+      "apply": {
+        "model": "create:block/shaft",
+        "x": 90,
+        "y": 90
+      }
+    },
+    {
+      "when": {"OR": [{"facing": "north"}, {"facing": "south"}]},
+      "apply": {
+        "model": "create:block/shaft",
+        "x": 90
+      }
+    },
+    {
+      "apply": {
+        "model": "create:block/mechanical_press/head"
+      }
+    }
+  ]
+}
