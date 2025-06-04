@@ -1,0 +1,14 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "create:block/millstone/block"
+      }
+    },
+    {
+      "apply": {
+        "model": "create:block/millstone/inner"
+      }
+    }
+  ]
+}

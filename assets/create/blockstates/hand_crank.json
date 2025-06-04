@@ -1,0 +1,89 @@
+{
+  "multipart": [
+    {
+      "when": {"facing": "down"},
+      "apply": {
+        "model": "create:block/hand_crank/block",
+        "x": 180
+      }
+    },
+    {
+      "when": {"facing": "down"},
+      "apply": {
+        "model": "create:block/hand_crank/handle",
+        "x": 90
+      }
+    },
+    {
+      "when": {"facing": "up"},
+      "apply": {
+        "model": "create:block/hand_crank/block"
+      }
+    },
+    {
+      "when": {"facing": "up"},
+      "apply": {
+        "model": "create:block/hand_crank/handle",
+        "x": 270
+      }
+    },
+    {
+      "when": {"facing": "north"},
+      "apply": {
+        "model": "create:block/hand_crank/block",
+        "x": 90
+      }
+    },
+    {
+      "when": {"facing": "north"},
+      "apply": {
+        "model": "create:block/hand_crank/handle"
+      }
+    },
+    {
+      "when": {"facing": "east"},
+      "apply": {
+        "model": "create:block/hand_crank/block",
+        "x": 90,
+        "y": 90
+      }
+    },
+    {
+      "when": {"facing": "east"},
+      "apply": {
+        "model": "create:block/hand_crank/handle",
+        "y": 90
+      }
+    },
+    {
+      "when": {"facing": "south"},
+      "apply": {
+        "model": "create:block/hand_crank/block",
+        "x": 90,
+        "y": 180
+      }
+    },
+    {
+      "when": {"facing": "south"},
+      "apply": {
+        "model": "create:block/hand_crank/handle",
+        "y": 180
+      }
+    },
+    {
+      "when": {"facing": "west"},
+      "apply": {
+        "model": "create:block/hand_crank/block",
+        "x": 90,
+        "y": 270
+      }
+    },
+    {
+      "when": {"facing": "west"},
+      "apply": {
+        "model": "create:block/hand_crank/handle",
+        "y": 270
+      }
+    }
+  ]
+}
