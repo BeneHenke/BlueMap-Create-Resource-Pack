@@ -1,0 +1,24 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "create:block/mechanical_mixer/block"
+      }
+    },
+    {
+      "apply": {
+        "model": "create:block/cogwheel_shaftless"
+      }
+    },
+    {
+      "apply": {
+        "model": "create:block/mechanical_mixer/pole_translated"
+      }
+    },
+    {
+      "apply": {
+        "model": "create:block/mechanical_mixer/head_translated"
+      }
+    }
+  ]
+}
