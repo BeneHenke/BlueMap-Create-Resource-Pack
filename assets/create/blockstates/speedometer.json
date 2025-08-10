@@ -1,0 +1,349 @@
+{
+  "multipart": [
+    {
+      "when": {
+        "axis_along_first": "false",
+        "facing": "down"
+      },
+      "apply": {
+        "model": "create:block/gauge/base",
+        "x": 180
+      }
+    },
+    {
+      "when": {
+        "axis_along_first": "false",
+        "facing": "east"
+      },
+      "apply": {
+        "model": "create:block/gauge/base_wall"
+      }
+    },
+    {
+      "when": {
+        "axis_along_first": "false",
+        "facing": "north"
+      },
+      "apply": {
+        "model": "create:block/gauge/base_wall",
+        "x": 90,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "axis_along_first": "false",
+        "facing": "south"
+      },
+      "apply": {
+        "model": "create:block/gauge/base_wall",
+        "x": 90,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "axis_along_first": "false",
+        "facing": "up"
+      },
+      "apply": {
+        "model": "create:block/gauge/base"
+      }
+    },
+    {
+      "when": {
+        "axis_along_first": "false",
+        "facing": "west"
+      },
+      "apply": {
+        "model": "create:block/gauge/base_wall",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "axis_along_first": "true",
+        "facing": "down"
+      },
+      "apply": {
+        "model": "create:block/gauge/base",
+        "x": 180,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "axis_along_first": "true",
+        "facing": "east"
+      },
+      "apply": {
+        "model": "create:block/gauge/base_wall",
+        "x": 90
+      }
+    },
+    {
+      "when": {
+        "axis_along_first": "true",
+        "facing": "north"
+      },
+      "apply": {
+        "model": "create:block/gauge/base_wall",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "axis_along_first": "true",
+        "facing": "south"
+      },
+      "apply": {
+        "model": "create:block/gauge/base_wall",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "axis_along_first": "true",
+        "facing": "up"
+      },
+      "apply": {
+        "model": "create:block/gauge/base",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "axis_along_first": "true",
+        "facing": "west"
+      },
+      "apply": {
+        "model": "create:block/gauge/base_wall",
+        "x": 90,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "axis_along_first": false
+      },
+      "apply": {
+        "model": "create:block/shaft",
+        "x": 90
+      }
+    },
+    {
+      "when": {
+        "axis_along_first": true
+      },
+      "apply": {
+        "model": "create:block/shaft",
+        "x": 90,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "north"
+      },
+      "apply": {
+        "model": "create:block/gauge/speedometer/head",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "east"
+      },
+      "apply": {
+        "model": "create:block/gauge/speedometer/head"
+      }
+    },
+    {
+      "when": {
+        "facing": "south"
+      },
+      "apply": {
+        "model": "create:block/gauge/speedometer/head",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "west"
+      },
+      "apply": {
+        "model": "create:block/gauge/speedometer/head",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "OR": [
+          {
+            "facing": "up"
+          },
+          {
+            "facing": "down"
+          }
+        ],
+        "axis_along_first": "true"
+      },
+      "apply": {
+        "model": "create:block/gauge/speedometer/head",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "OR": [
+          {
+            "facing": "up"
+          },
+          {
+            "facing": "down"
+          }
+        ],
+        "axis_along_first": "true"
+      },
+      "apply": {
+        "model": "create:block/gauge/speedometer/head",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "OR": [
+          {
+            "facing": "up"
+          },
+          {
+            "facing": "down"
+          }
+        ],
+        "axis_along_first": "false"
+      },
+      "apply": {
+        "model": "create:block/gauge/speedometer/head"
+      }
+    },
+    {
+      "when": {
+        "OR": [
+          {
+            "facing": "up"
+          },
+          {
+            "facing": "down"
+          }
+        ],
+        "axis_along_first": "false"
+      },
+      "apply": {
+        "model": "create:block/gauge/speedometer/head",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "north"
+      },
+      "apply": {
+        "model": "create:block/gauge/dial",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "east"
+      },
+      "apply": {
+        "model": "create:block/gauge/dial"
+      }
+    },
+    {
+      "when": {
+        "facing": "south"
+      },
+      "apply": {
+        "model": "create:block/gauge/dial",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "west"
+      },
+      "apply": {
+        "model": "create:block/gauge/dial",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "OR": [
+          {
+            "facing": "up"
+          },
+          {
+            "facing": "down"
+          }
+        ],
+        "axis_along_first": "true"
+      },
+      "apply": {
+        "model": "create:block/gauge/dial",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "OR": [
+          {
+            "facing": "up"
+          },
+          {
+            "facing": "down"
+          }
+        ],
+        "axis_along_first": "true"
+      },
+      "apply": {
+        "model": "create:block/gauge/dial",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "OR": [
+          {
+            "facing": "up"
+          },
+          {
+            "facing": "down"
+          }
+        ],
+        "axis_along_first": "false"
+      },
+      "apply": {
+        "model": "create:block/gauge/dial"
+      }
+    },
+    {
+      "when": {
+        "OR": [
+          {
+            "facing": "up"
+          },
+          {
+            "facing": "down"
+          }
+        ],
+        "axis_along_first": "false"
+      },
+      "apply": {
+        "model": "create:block/gauge/dial",
+        "y": 180
+      }
+    }
+  ]
+}
