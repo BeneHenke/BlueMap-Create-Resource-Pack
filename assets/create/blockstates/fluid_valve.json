@@ -1,0 +1,832 @@
+{
+  "multipart": [
+    {
+      "when": {
+        "axis_along_first": "false",
+        "enabled": "false",
+        "facing": "down",
+        "waterlogged": "false"
+      },
+      "apply": {
+        "model": "create:block/fluid_valve/block_horizontal_closed",
+        "x": 270,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "axis_along_first": "false",
+        "enabled": "false",
+        "facing": "down",
+        "waterlogged": "true"
+      },
+      "apply": {
+        "model": "create:block/fluid_valve/block_horizontal_closed",
+        "x": 270,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "axis_along_first": "false",
+        "enabled": "false",
+        "facing": "east",
+        "waterlogged": "false"
+      },
+      "apply": {
+        "model": "create:block/fluid_valve/block_horizontal_closed",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "axis_along_first": "false",
+        "enabled": "false",
+        "facing": "east",
+        "waterlogged": "true"
+      },
+      "apply": {
+        "model": "create:block/fluid_valve/block_horizontal_closed",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "axis_along_first": "false",
+        "enabled": "false",
+        "facing": "north",
+        "waterlogged": "false"
+      },
+      "apply": {
+        "model": "create:block/fluid_valve/block_vertical_closed",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "axis_along_first": "false",
+        "enabled": "false",
+        "facing": "north",
+        "waterlogged": "true"
+      },
+      "apply": {
+        "model": "create:block/fluid_valve/block_vertical_closed",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "axis_along_first": "false",
+        "enabled": "false",
+        "facing": "south",
+        "waterlogged": "false"
+      },
+      "apply": {
+        "model": "create:block/fluid_valve/block_vertical_closed"
+      }
+    },
+    {
+      "when": {
+        "axis_along_first": "false",
+        "enabled": "false",
+        "facing": "south",
+        "waterlogged": "true"
+      },
+      "apply": {
+        "model": "create:block/fluid_valve/block_vertical_closed"
+      }
+    },
+    {
+      "when": {
+        "axis_along_first": "false",
+        "enabled": "false",
+        "facing": "up",
+        "waterlogged": "false"
+      },
+      "apply": {
+        "model": "create:block/fluid_valve/block_horizontal_closed",
+        "x": 90,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "axis_along_first": "false",
+        "enabled": "false",
+        "facing": "up",
+        "waterlogged": "true"
+      },
+      "apply": {
+        "model": "create:block/fluid_valve/block_horizontal_closed",
+        "x": 90,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "axis_along_first": "false",
+        "enabled": "false",
+        "facing": "west",
+        "waterlogged": "false"
+      },
+      "apply": {
+        "model": "create:block/fluid_valve/block_horizontal_closed",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "axis_along_first": "false",
+        "enabled": "false",
+        "facing": "west",
+        "waterlogged": "true"
+      },
+      "apply": {
+        "model": "create:block/fluid_valve/block_horizontal_closed",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "axis_along_first": "false",
+        "enabled": "true",
+        "facing": "down",
+        "waterlogged": "false"
+      },
+      "apply": {
+        "model": "create:block/fluid_valve/block_horizontal_open",
+        "x": 270,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "axis_along_first": "false",
+        "enabled": "true",
+        "facing": "down",
+        "waterlogged": "true"
+      },
+      "apply": {
+        "model": "create:block/fluid_valve/block_horizontal_open",
+        "x": 270,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "axis_along_first": "false",
+        "enabled": "true",
+        "facing": "east",
+        "waterlogged": "false"
+      },
+      "apply": {
+        "model": "create:block/fluid_valve/block_horizontal_open",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "axis_along_first": "false",
+        "enabled": "true",
+        "facing": "east",
+        "waterlogged": "true"
+      },
+      "apply": {
+        "model": "create:block/fluid_valve/block_horizontal_open",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "axis_along_first": "false",
+        "enabled": "true",
+        "facing": "north",
+        "waterlogged": "false"
+      },
+      "apply": {
+        "model": "create:block/fluid_valve/block_vertical_open",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "axis_along_first": "false",
+        "enabled": "true",
+        "facing": "north",
+        "waterlogged": "true"
+      },
+      "apply": {
+        "model": "create:block/fluid_valve/block_vertical_open",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "axis_along_first": "false",
+        "enabled": "true",
+        "facing": "south",
+        "waterlogged": "false"
+      },
+      "apply": {
+        "model": "create:block/fluid_valve/block_vertical_open"
+      }
+    },
+    {
+      "when": {
+        "axis_along_first": "false",
+        "enabled": "true",
+        "facing": "south",
+        "waterlogged": "true"
+      },
+      "apply": {
+        "model": "create:block/fluid_valve/block_vertical_open"
+      }
+    },
+    {
+      "when": {
+        "axis_along_first": "false",
+        "enabled": "true",
+        "facing": "up",
+        "waterlogged": "false"
+      },
+      "apply": {
+        "model": "create:block/fluid_valve/block_horizontal_open",
+        "x": 90,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "axis_along_first": "false",
+        "enabled": "true",
+        "facing": "up",
+        "waterlogged": "true"
+      },
+      "apply": {
+        "model": "create:block/fluid_valve/block_horizontal_open",
+        "x": 90,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "axis_along_first": "false",
+        "enabled": "true",
+        "facing": "west",
+        "waterlogged": "false"
+      },
+      "apply": {
+        "model": "create:block/fluid_valve/block_horizontal_open",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "axis_along_first": "false",
+        "enabled": "true",
+        "facing": "west",
+        "waterlogged": "true"
+      },
+      "apply": {
+        "model": "create:block/fluid_valve/block_horizontal_open",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "axis_along_first": "true",
+        "enabled": "false",
+        "facing": "down",
+        "waterlogged": "false"
+      },
+      "apply": {
+        "model": "create:block/fluid_valve/block_horizontal_closed",
+        "x": 270
+      }
+    },
+    {
+      "when": {
+        "axis_along_first": "true",
+        "enabled": "false",
+        "facing": "down",
+        "waterlogged": "true"
+      },
+      "apply": {
+        "model": "create:block/fluid_valve/block_horizontal_closed",
+        "x": 270
+      }
+    },
+    {
+      "when": {
+        "axis_along_first": "true",
+        "enabled": "false",
+        "facing": "east",
+        "waterlogged": "false"
+      },
+      "apply": {
+        "model": "create:block/fluid_valve/block_vertical_closed",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "axis_along_first": "true",
+        "enabled": "false",
+        "facing": "east",
+        "waterlogged": "true"
+      },
+      "apply": {
+        "model": "create:block/fluid_valve/block_vertical_closed",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "axis_along_first": "true",
+        "enabled": "false",
+        "facing": "north",
+        "waterlogged": "false"
+      },
+      "apply": {
+        "model": "create:block/fluid_valve/block_horizontal_closed",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "axis_along_first": "true",
+        "enabled": "false",
+        "facing": "north",
+        "waterlogged": "true"
+      },
+      "apply": {
+        "model": "create:block/fluid_valve/block_horizontal_closed",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "axis_along_first": "true",
+        "enabled": "false",
+        "facing": "south",
+        "waterlogged": "false"
+      },
+      "apply": {
+        "model": "create:block/fluid_valve/block_horizontal_closed"
+      }
+    },
+    {
+      "when": {
+        "axis_along_first": "true",
+        "enabled": "false",
+        "facing": "south",
+        "waterlogged": "true"
+      },
+      "apply": {
+        "model": "create:block/fluid_valve/block_horizontal_closed"
+      }
+    },
+    {
+      "when": {
+        "axis_along_first": "true",
+        "enabled": "false",
+        "facing": "up",
+        "waterlogged": "false"
+      },
+      "apply": {
+        "model": "create:block/fluid_valve/block_horizontal_closed",
+        "x": 90
+      }
+    },
+    {
+      "when": {
+        "axis_along_first": "true",
+        "enabled": "false",
+        "facing": "up",
+        "waterlogged": "true"
+      },
+      "apply": {
+        "model": "create:block/fluid_valve/block_horizontal_closed",
+        "x": 90
+      }
+    },
+    {
+      "when": {
+        "axis_along_first": "true",
+        "enabled": "false",
+        "facing": "west",
+        "waterlogged": "false"
+      },
+      "apply": {
+        "model": "create:block/fluid_valve/block_vertical_closed",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "axis_along_first": "true",
+        "enabled": "false",
+        "facing": "west",
+        "waterlogged": "true"
+      },
+      "apply": {
+        "model": "create:block/fluid_valve/block_vertical_closed",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "axis_along_first": "true",
+        "enabled": "true",
+        "facing": "down",
+        "waterlogged": "false"
+      },
+      "apply": {
+        "model": "create:block/fluid_valve/block_horizontal_open",
+        "x": 270
+      }
+    },
+    {
+      "when": {
+        "axis_along_first": "true",
+        "enabled": "true",
+        "facing": "down",
+        "waterlogged": "true"
+      },
+      "apply": {
+        "model": "create:block/fluid_valve/block_horizontal_open",
+        "x": 270
+      }
+    },
+    {
+      "when": {
+        "axis_along_first": "true",
+        "enabled": "true",
+        "facing": "east",
+        "waterlogged": "false"
+      },
+      "apply": {
+        "model": "create:block/fluid_valve/block_vertical_open",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "axis_along_first": "true",
+        "enabled": "true",
+        "facing": "east",
+        "waterlogged": "true"
+      },
+      "apply": {
+        "model": "create:block/fluid_valve/block_vertical_open",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "axis_along_first": "true",
+        "enabled": "true",
+        "facing": "north",
+        "waterlogged": "false"
+      },
+      "apply": {
+        "model": "create:block/fluid_valve/block_horizontal_open",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "axis_along_first": "true",
+        "enabled": "true",
+        "facing": "north",
+        "waterlogged": "true"
+      },
+      "apply": {
+        "model": "create:block/fluid_valve/block_horizontal_open",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "axis_along_first": "true",
+        "enabled": "true",
+        "facing": "south",
+        "waterlogged": "false"
+      },
+      "apply": {
+        "model": "create:block/fluid_valve/block_horizontal_open"
+      }
+    },
+    {
+      "when": {
+        "axis_along_first": "true",
+        "enabled": "true",
+        "facing": "south",
+        "waterlogged": "true"
+      },
+      "apply": {
+        "model": "create:block/fluid_valve/block_horizontal_open"
+      }
+    },
+    {
+      "when": {
+        "axis_along_first": "true",
+        "enabled": "true",
+        "facing": "up",
+        "waterlogged": "false"
+      },
+      "apply": {
+        "model": "create:block/fluid_valve/block_horizontal_open",
+        "x": 90
+      }
+    },
+    {
+      "when": {
+        "axis_along_first": "true",
+        "enabled": "true",
+        "facing": "up",
+        "waterlogged": "true"
+      },
+      "apply": {
+        "model": "create:block/fluid_valve/block_horizontal_open",
+        "x": 90
+      }
+    },
+    {
+      "when": {
+        "axis_along_first": "true",
+        "enabled": "true",
+        "facing": "west",
+        "waterlogged": "false"
+      },
+      "apply": {
+        "model": "create:block/fluid_valve/block_vertical_open",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "axis_along_first": "true",
+        "enabled": "true",
+        "facing": "west",
+        "waterlogged": "true"
+      },
+      "apply": {
+        "model": "create:block/fluid_valve/block_vertical_open",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "OR": [
+          {
+            "facing": "south",
+            "axis_along_first": "false"
+          },
+          {
+            "facing": "north",
+            "axis_along_first": "false"
+          },
+          {
+            "facing": "east",
+            "axis_along_first": "true"
+          },
+          {
+            "facing": "west",
+            "axis_along_first": "true"
+          }
+        ]
+      },
+      "apply": {
+        "model": "create:block/shaft"
+      }
+    },
+    {
+      "when": {
+        "OR": [
+          {
+            "facing": "east"
+          },
+          {
+            "facing": "west"
+          },
+          {
+            "facing": "up"
+          },
+          {
+            "facing": "down"
+          }
+        ],
+        "axis_along_first": "false"
+      },
+      "apply": {
+        "model": "create:block/shaft",
+        "x": 90
+      }
+    },
+    {
+      "when": {
+        "OR": [
+          {
+            "facing": "south"
+          },
+          {
+            "facing": "north"
+          },
+          {
+            "facing": "up"
+          },
+          {
+            "facing": "down"
+          }
+        ],
+        "axis_along_first": "true"
+      },
+      "apply": {
+        "model": "create:block/shaft",
+        "x": 90,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "OR": [
+          {
+            "facing": "north",
+            "axis_along_first": "false",
+            "enabled": "false"
+          },
+          {
+            "facing": "south",
+            "axis_along_first": "false",
+            "enabled": "false"
+          },
+          {
+            "facing": "north",
+            "axis_along_first": "true",
+            "enabled": "true"
+          },
+          {
+            "facing": "south",
+            "axis_along_first": "true",
+            "enabled": "true"
+          }
+        ]
+      },
+      "apply": {
+        "model": "create:block/fluid_valve/pointer",
+        "x": 90
+      }
+    },
+    {
+      "when": {
+        "OR": [
+          {
+            "facing": "north",
+            "axis_along_first": "false",
+            "enabled": "true"
+          },
+          {
+            "facing": "south",
+            "axis_along_first": "false",
+            "enabled": "true"
+          },
+          {
+            "facing": "north",
+            "axis_along_first": "true",
+            "enabled": "false"
+          },
+          {
+            "facing": "south",
+            "axis_along_first": "true",
+            "enabled": "false"
+          }
+        ]
+      },
+      "apply": {
+        "model": "create:block/fluid_valve/pointer_rotated",
+        "x": 90
+      }
+    },
+    {
+      "when": {
+        "OR": [
+          {
+            "facing": "down",
+            "axis_along_first": "false",
+            "enabled": "false"
+          },
+          {
+            "facing": "up",
+            "axis_along_first": "false",
+            "enabled": "false"
+          },
+          {
+            "facing": "down",
+            "axis_along_first": "true",
+            "enabled": "true"
+          },
+          {
+            "facing": "up",
+            "axis_along_first": "true",
+            "enabled": "true"
+          }
+        ]
+      },
+      "apply": {
+        "model": "create:block/fluid_valve/pointer"
+      }
+    },
+    {
+      "when": {
+        "OR": [
+          {
+            "facing": "down",
+            "axis_along_first": "false",
+            "enabled": "true"
+          },
+          {
+            "facing": "up",
+            "axis_along_first": "false",
+            "enabled": "true"
+          },
+          {
+            "facing": "down",
+            "axis_along_first": "true",
+            "enabled": "false"
+          },
+          {
+            "facing": "up",
+            "axis_along_first": "true",
+            "enabled": "false"
+          }
+        ]
+      },
+      "apply": {
+        "model": "create:block/fluid_valve/pointer_rotated"
+      }
+    },
+    {
+      "when": {
+        "OR": [
+          {
+            "facing": "east",
+            "axis_along_first": "true",
+            "enabled": "false"
+          },
+          {
+            "facing": "west",
+            "axis_along_first": "true",
+            "enabled": "false"
+          },
+          {
+            "facing": "east",
+            "axis_along_first": "false",
+            "enabled": "true"
+          },
+          {
+            "facing": "west",
+            "axis_along_first": "false",
+            "enabled": "true"
+          }
+        ]
+      },
+      "apply": {
+        "model": "create:block/fluid_valve/pointer",
+        "x": 90,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "OR": [
+          {
+            "facing": "east",
+            "axis_along_first": "true",
+            "enabled": "true"
+          },
+          {
+            "facing": "west",
+            "axis_along_first": "true",
+            "enabled": "true"
+          },
+          {
+            "facing": "east",
+            "axis_along_first": "false",
+            "enabled": "false"
+          },
+          {
+            "facing": "west",
+            "axis_along_first": "false",
+            "enabled": "false"
+          }
+        ]
+      },
+      "apply": {
+        "model": "create:block/fluid_valve/pointer_rotated",
+        "x": 90,
+        "y": 90
+      }
+    }
+  ]
+}
