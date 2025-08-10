@@ -1,0 +1,181 @@
+{
+  "multipart": [
+    {
+      "when": {
+        "facing": "down",
+        "waterlogged": "false"
+      },
+      "apply": {
+        "model": "create:block/mechanical_drill/block",
+        "x": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "down",
+        "waterlogged": "true"
+      },
+      "apply": {
+        "model": "create:block/mechanical_drill/block",
+        "x": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "waterlogged": "false"
+      },
+      "apply": {
+        "model": "create:block/mechanical_drill/block",
+        "x": 90,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "waterlogged": "true"
+      },
+      "apply": {
+        "model": "create:block/mechanical_drill/block",
+        "x": 90,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "waterlogged": "false"
+      },
+      "apply": {
+        "model": "create:block/mechanical_drill/block",
+        "x": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "waterlogged": "true"
+      },
+      "apply": {
+        "model": "create:block/mechanical_drill/block",
+        "x": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "waterlogged": "false"
+      },
+      "apply": {
+        "model": "create:block/mechanical_drill/block",
+        "x": 90,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "waterlogged": "true"
+      },
+      "apply": {
+        "model": "create:block/mechanical_drill/block",
+        "x": 90,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "up",
+        "waterlogged": "false"
+      },
+      "apply": {
+        "model": "create:block/mechanical_drill/block"
+      }
+    },
+    {
+      "when": {
+        "facing": "up",
+        "waterlogged": "true"
+      },
+      "apply": {
+        "model": "create:block/mechanical_drill/block"
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "waterlogged": "false"
+      },
+      "apply": {
+        "model": "create:block/mechanical_drill/block",
+        "x": 90,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "waterlogged": "true"
+      },
+      "apply": {
+        "model": "create:block/mechanical_drill/block",
+        "x": 90,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "down"
+      },
+      "apply": {
+        "model": "create:block/mechanical_drill/head",
+        "x": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "east"
+      },
+      "apply": {
+        "model": "create:block/mechanical_drill/head",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "north"
+      },
+      "apply": {
+        "model": "create:block/mechanical_drill/head",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south"
+      },
+      "apply": {
+        "model": "create:block/mechanical_drill/head"
+      }
+    },
+    {
+      "when": {
+        "facing": "up"
+      },
+      "apply": {
+        "model": "create:block/mechanical_drill/head",
+        "x": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "west"
+      },
+      "apply": {
+        "model": "create:block/mechanical_drill/head",
+        "y": 90
+      }
+    }
+  ]
+}
