@@ -1,0 +1,107 @@
+{
+  "multipart": [
+    {
+      "when": {
+        "facing": "down"
+      },
+      "apply": {
+        "model": "create:block/mechanical_pump/block",
+        "x": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "east"
+      },
+      "apply": {
+        "model": "create:block/mechanical_pump/block",
+        "x": 90,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "north"
+      },
+      "apply": {
+        "model": "create:block/mechanical_pump/block",
+        "x": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "south"
+      },
+      "apply": {
+        "model": "create:block/mechanical_pump/block",
+        "x": 90,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "up"
+      },
+      "apply": {
+        "model": "create:block/mechanical_pump/block"
+      }
+    },
+    {
+      "when": {
+        "facing": "west"
+      },
+      "apply": {
+        "model": "create:block/mechanical_pump/block",
+        "x": 90,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "OR": [
+          {
+            "facing": "west"
+          },
+          {
+            "facing": "east"
+          }
+        ]
+      },
+      "apply": {
+        "model": "create:block/mechanical_pump/cog",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "OR": [
+          {
+            "facing": "north"
+          },
+          {
+            "facing": "south"
+          }
+        ]
+      },
+      "apply": {
+        "model": "create:block/mechanical_pump/cog"
+      }
+    },
+    {
+      "when": {
+        "OR": [
+          {
+            "facing": "up"
+          },
+          {
+            "facing": "down"
+          }
+        ]
+      },
+      "apply": {
+        "model": "create:block/mechanical_pump/cog",
+        "x": 90
+      }
+    }
+  ]
+}
