@@ -2,8 +2,10 @@
   "multipart": [
     {
       "when": {
-        "axis": "x",
-        "waterlogged": "false"
+        "AND": [
+          { "axis": "x" },
+          { "OR": [ { "waterlogged": "true" }, { "waterlogged": "false" } ] }
+        ]
       },
       "apply": {
         "model": "create:block/track/bogey/top",
@@ -12,8 +14,10 @@
     },
     {
       "when": {
-        "axis": "x",
-        "waterlogged": "false"
+        "AND": [
+          { "axis": "x" },
+          { "waterlogged": "false" }
+        ]
       },
       "apply": {
         "model": "create:block/track/bogey/bogey_frame",
@@ -22,8 +26,10 @@
     },
     {
       "when": {
-        "axis": "x",
-        "waterlogged": "false"
+        "AND": [
+          { "axis": "x" },
+          { "OR": [ { "waterlogged": "true" }, { "waterlogged": "false" } ] }
+        ]
       },
       "apply": {
         "model": "create:block/track/bogey/bogey_wheel",
@@ -32,18 +38,10 @@
     },
     {
       "when": {
-        "axis": "x",
-        "waterlogged": "true"
-      },
-      "apply": {
-        "model": "create:block/track/bogey/top",
-        "y": 90
-      }
-    },
-    {
-      "when": {
-        "axis": "z",
-        "waterlogged": "false"
+        "AND": [
+          { "axis": "z" },
+          { "OR": [ { "waterlogged": "true" }, { "waterlogged": "false" } ] }
+        ]
       },
       "apply": {
         "model": "create:block/track/bogey/top"
@@ -51,11 +49,24 @@
     },
     {
       "when": {
-        "axis": "z",
-        "waterlogged": "true"
+        "AND": [
+          { "axis": "z" },
+          { "OR": [ { "waterlogged": "true" }, { "waterlogged": "false" } ] }
+        ]
       },
       "apply": {
-        "model": "create:block/track/bogey/top"
+        "model": "create:block/track/bogey/bogey_frame"
+      }
+    },
+    {
+      "when": {
+        "AND": [
+          { "axis": "z" },
+          { "OR": [ { "waterlogged": "true" }, { "waterlogged": "false" } ] }
+        ]
+      },
+      "apply": {
+        "model": "create:block/track/bogey/bogey_wheel"
       }
     }
   ]
