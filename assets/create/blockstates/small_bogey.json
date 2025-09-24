@@ -1,0 +1,62 @@
+{
+  "multipart": [
+    {
+      "when": {
+        "axis": "x",
+        "waterlogged": "false"
+      },
+      "apply": {
+        "model": "create:block/track/bogey/top",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "axis": "x",
+        "waterlogged": "false"
+      },
+      "apply": {
+        "model": "create:block/track/bogey/bogey_frame",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "axis": "x",
+        "waterlogged": "false"
+      },
+      "apply": {
+        "model": "create:block/track/bogey/bogey_wheel",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "axis": "x",
+        "waterlogged": "true"
+      },
+      "apply": {
+        "model": "create:block/track/bogey/top",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "axis": "z",
+        "waterlogged": "false"
+      },
+      "apply": {
+        "model": "create:block/track/bogey/top"
+      }
+    },
+    {
+      "when": {
+        "axis": "z",
+        "waterlogged": "true"
+      },
+      "apply": {
+        "model": "create:block/track/bogey/top"
+      }
+    }
+  ]
+}
