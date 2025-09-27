@@ -1,0 +1,351 @@
+{
+  "multipart": [
+    {
+      "when": {
+        "facing": "east",
+        "open": "false",
+        "waterlogged": "false"
+      },
+      "apply": {
+        "model": "create:block/yellow_postbox_closed",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "open": "false",
+        "waterlogged": "false"
+      },
+      "apply": {
+        "model": "create:block/package_postbox/flag",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "open": "false",
+        "waterlogged": "true"
+      },
+      "apply": {
+        "model": "create:block/yellow_postbox_closed",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "open": "false",
+        "waterlogged": "true"
+      },
+      "apply": {
+        "model": "create:block/package_postbox/flag",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "open": "true",
+        "waterlogged": "false"
+      },
+      "apply": {
+        "model": "create:block/yellow_postbox_open",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "open": "true",
+        "waterlogged": "false"
+      },
+      "apply": {
+        "model": "create:block/package_postbox/flag",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "open": "true",
+        "waterlogged": "true"
+      },
+      "apply": {
+        "model": "create:block/yellow_postbox_open",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "open": "true",
+        "waterlogged": "true"
+      },
+      "apply": {
+        "model": "create:block/package_postbox/flag",
+        "y": 90
+      }
+    },
+
+    {
+      "when": {
+        "facing": "north",
+        "open": "false",
+        "waterlogged": "false"
+      },
+      "apply": {
+        "model": "create:block/yellow_postbox_closed"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "open": "false",
+        "waterlogged": "false"
+      },
+      "apply": {
+        "model": "create:block/package_postbox/flag"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "open": "false",
+        "waterlogged": "true"
+      },
+      "apply": {
+        "model": "create:block/yellow_postbox_closed"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "open": "false",
+        "waterlogged": "true"
+      },
+      "apply": {
+        "model": "create:block/package_postbox/flag"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "open": "true",
+        "waterlogged": "false"
+      },
+      "apply": {
+        "model": "create:block/yellow_postbox_open"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "open": "true",
+        "waterlogged": "false"
+      },
+      "apply": {
+        "model": "create:block/package_postbox/flag"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "open": "true",
+        "waterlogged": "true"
+      },
+      "apply": {
+        "model": "create:block/yellow_postbox_open"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "open": "true",
+        "waterlogged": "true"
+      },
+      "apply": {
+        "model": "create:block/package_postbox/flag"
+      }
+    },
+
+    {
+      "when": {
+        "facing": "south",
+        "open": "false",
+        "waterlogged": "false"
+      },
+      "apply": {
+        "model": "create:block/yellow_postbox_closed",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "open": "false",
+        "waterlogged": "false"
+      },
+      "apply": {
+        "model": "create:block/package_postbox/flag",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "open": "false",
+        "waterlogged": "true"
+      },
+      "apply": {
+        "model": "create:block/yellow_postbox_closed",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "open": "false",
+        "waterlogged": "true"
+      },
+      "apply": {
+        "model": "create:block/package_postbox/flag",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "open": "true",
+        "waterlogged": "false"
+      },
+      "apply": {
+        "model": "create:block/yellow_postbox_open",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "open": "true",
+        "waterlogged": "false"
+      },
+      "apply": {
+        "model": "create:block/package_postbox/flag",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "open": "true",
+        "waterlogged": "true"
+      },
+      "apply": {
+        "model": "create:block/yellow_postbox_open",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "open": "true",
+        "waterlogged": "true"
+      },
+      "apply": {
+        "model": "create:block/package_postbox/flag",
+        "y": 180
+      }
+    },
+
+    {
+      "when": {
+        "facing": "west",
+        "open": "false",
+        "waterlogged": "false"
+      },
+      "apply": {
+        "model": "create:block/yellow_postbox_closed",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "open": "false",
+        "waterlogged": "false"
+      },
+      "apply": {
+        "model": "create:block/package_postbox/flag",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "open": "false",
+        "waterlogged": "true"
+      },
+      "apply": {
+        "model": "create:block/yellow_postbox_closed",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "open": "false",
+        "waterlogged": "true"
+      },
+      "apply": {
+        "model": "create:block/package_postbox/flag",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "open": "true",
+        "waterlogged": "false"
+      },
+      "apply": {
+        "model": "create:block/yellow_postbox_open",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "open": "true",
+        "waterlogged": "false"
+      },
+      "apply": {
+        "model": "create:block/package_postbox/flag",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "open": "true",
+        "waterlogged": "true"
+      },
+      "apply": {
+        "model": "create:block/yellow_postbox_open",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "open": "true",
+        "waterlogged": "true"
+      },
+      "apply": {
+        "model": "create:block/package_postbox/flag",
+        "y": 270
+      }
+    }
+  ]
+}
