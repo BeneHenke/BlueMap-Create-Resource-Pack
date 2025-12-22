@@ -1,0 +1,207 @@
+{
+  "multipart": [
+    {
+      "when": { "extended": "false", "facing": "down", "powered": "false" },
+      "apply": { "model": "create:block/sticker/block", "x": 180 }
+    },
+    {
+      "when": { "extended": "false", "facing": "down", "powered": "false" },
+      "apply": { "model": "create:block/sticker/head", "x": 180 }
+    },
+    {
+      "when": { "extended": "false", "facing": "down", "powered": "true" },
+      "apply": { "model": "create:block/sticker/block_powered", "x": 180 }
+    },
+    {
+      "when": { "extended": "false", "facing": "down", "powered": "true" },
+      "apply": { "model": "create:block/sticker/head", "x": 180 }
+    },
+
+    {
+      "when": { "extended": "false", "facing": "east", "powered": "false" },
+      "apply": { "model": "create:block/sticker/block", "x": 90, "y": 90 }
+    },
+    {
+      "when": { "extended": "false", "facing": "east", "powered": "false" },
+      "apply": { "model": "create:block/sticker/head", "x": 90, "y": 90 }
+    },
+    {
+      "when": { "extended": "false", "facing": "east", "powered": "true" },
+      "apply": { "model": "create:block/sticker/block_powered", "x": 90, "y": 90 }
+    },
+    {
+      "when": { "extended": "false", "facing": "east", "powered": "true" },
+      "apply": { "model": "create:block/sticker/head", "x": 90, "y": 90 }
+    },
+
+    {
+      "when": { "extended": "false", "facing": "north", "powered": "false" },
+      "apply": { "model": "create:block/sticker/block", "x": 90 }
+    },
+    {
+      "when": { "extended": "false", "facing": "north", "powered": "false" },
+      "apply": { "model": "create:block/sticker/head", "x": 90 }
+    },
+    {
+      "when": { "extended": "false", "facing": "north", "powered": "true" },
+      "apply": { "model": "create:block/sticker/block_powered", "x": 90 }
+    },
+    {
+      "when": { "extended": "false", "facing": "north", "powered": "true" },
+      "apply": { "model": "create:block/sticker/head", "x": 90 }
+    },
+
+    {
+      "when": { "extended": "false", "facing": "south", "powered": "false" },
+      "apply": { "model": "create:block/sticker/block", "x": 90, "y": 180 }
+    },
+    {
+      "when": { "extended": "false", "facing": "south", "powered": "false" },
+      "apply": { "model": "create:block/sticker/head", "x": 90, "y": 180 }
+    },
+    {
+      "when": { "extended": "false", "facing": "south", "powered": "true" },
+      "apply": { "model": "create:block/sticker/block_powered", "x": 90, "y": 180 }
+    },
+    {
+      "when": { "extended": "false", "facing": "south", "powered": "true" },
+      "apply": { "model": "create:block/sticker/head", "x": 90, "y": 180 }
+    },
+
+    {
+      "when": { "extended": "false", "facing": "up", "powered": "false" },
+      "apply": { "model": "create:block/sticker/block" }
+    },
+    {
+      "when": { "extended": "false", "facing": "up", "powered": "false" },
+      "apply": { "model": "create:block/sticker/head" }
+    },
+    {
+      "when": { "extended": "false", "facing": "up", "powered": "true" },
+      "apply": { "model": "create:block/sticker/block_powered" }
+    },
+    {
+      "when": { "extended": "false", "facing": "up", "powered": "true" },
+      "apply": { "model": "create:block/sticker/head" }
+    },
+
+    {
+      "when": { "extended": "false", "facing": "west", "powered": "false" },
+      "apply": { "model": "create:block/sticker/block", "x": 90, "y": 270 }
+    },
+    {
+      "when": { "extended": "false", "facing": "west", "powered": "false" },
+      "apply": { "model": "create:block/sticker/head", "x": 90, "y": 270 }
+    },
+    {
+      "when": { "extended": "false", "facing": "west", "powered": "true" },
+      "apply": { "model": "create:block/sticker/block_powered", "x": 90, "y": 270 }
+    },
+    {
+      "when": { "extended": "false", "facing": "west", "powered": "true" },
+      "apply": { "model": "create:block/sticker/head", "x": 90, "y": 270 }
+    },
+
+    {
+      "when": { "extended": "true", "facing": "down", "powered": "false" },
+      "apply": { "model": "create:block/sticker/block", "x": 180 }
+    },
+    {
+      "when": { "extended": "true", "facing": "down", "powered": "false" },
+      "apply": { "model": "create:block/sticker/head", "x": 180 }
+    },
+    {
+      "when": { "extended": "true", "facing": "down", "powered": "true" },
+      "apply": { "model": "create:block/sticker/block_powered", "x": 180 }
+    },
+    {
+      "when": { "extended": "true", "facing": "down", "powered": "true" },
+      "apply": { "model": "create:block/sticker/head", "x": 180 }
+    },
+
+    {
+      "when": { "extended": "true", "facing": "east", "powered": "false" },
+      "apply": { "model": "create:block/sticker/block", "x": 90, "y": 90 }
+    },
+    {
+      "when": { "extended": "true", "facing": "east", "powered": "false" },
+      "apply": { "model": "create:block/sticker/head", "x": 90, "y": 90 }
+    },
+    {
+      "when": { "extended": "true", "facing": "east", "powered": "true" },
+      "apply": { "model": "create:block/sticker/block_powered", "x": 90, "y": 90 }
+    },
+    {
+      "when": { "extended": "true", "facing": "east", "powered": "true" },
+      "apply": { "model": "create:block/sticker/head", "x": 90, "y": 90 }
+    },
+
+    {
+      "when": { "extended": "true", "facing": "north", "powered": "false" },
+      "apply": { "model": "create:block/sticker/block", "x": 90 }
+    },
+    {
+      "when": { "extended": "true", "facing": "north", "powered": "false" },
+      "apply": { "model": "create:block/sticker/head", "x": 90 }
+    },
+    {
+      "when": { "extended": "true", "facing": "north", "powered": "true" },
+      "apply": { "model": "create:block/sticker/block_powered", "x": 90 }
+    },
+    {
+      "when": { "extended": "true", "facing": "north", "powered": "true" },
+      "apply": { "model": "create:block/sticker/head", "x": 90 }
+    },
+
+    {
+      "when": { "extended": "true", "facing": "south", "powered": "false" },
+      "apply": { "model": "create:block/sticker/block", "x": 90, "y": 180 }
+    },
+    {
+      "when": { "extended": "true", "facing": "south", "powered": "false" },
+      "apply": { "model": "create:block/sticker/head", "x": 90, "y": 180 }
+    },
+    {
+      "when": { "extended": "true", "facing": "south", "powered": "true" },
+      "apply": { "model": "create:block/sticker/block_powered", "x": 90, "y": 180 }
+    },
+    {
+      "when": { "extended": "true", "facing": "south", "powered": "true" },
+      "apply": { "model": "create:block/sticker/head", "x": 90, "y": 180 }
+    },
+
+    {
+      "when": { "extended": "true", "facing": "up", "powered": "false" },
+      "apply": { "model": "create:block/sticker/block" }
+    },
+    {
+      "when": { "extended": "true", "facing": "up", "powered": "false" },
+      "apply": { "model": "create:block/sticker/head" }
+    },
+    {
+      "when": { "extended": "true", "facing": "up", "powered": "true" },
+      "apply": { "model": "create:block/sticker/block_powered" }
+    },
+    {
+      "when": { "extended": "true", "facing": "up", "powered": "true" },
+      "apply": { "model": "create:block/sticker/head" }
+    },
+
+    {
+      "when": { "extended": "true", "facing": "west", "powered": "false" },
+      "apply": { "model": "create:block/sticker/block", "x": 90, "y": 270 }
+    },
+    {
+      "when": { "extended": "true", "facing": "west", "powered": "false" },
+      "apply": { "model": "create:block/sticker/head", "x": 90, "y": 270 }
+    },
+    {
+      "when": { "extended": "true", "facing": "west", "powered": "true" },
+      "apply": { "model": "create:block/sticker/block_powered", "x": 90, "y": 270 }
+    },
+    {
+      "when": { "extended": "true", "facing": "west", "powered": "true" },
+      "apply": { "model": "create:block/sticker/head", "x": 90, "y": 270 }
+    }
+  ]
+}

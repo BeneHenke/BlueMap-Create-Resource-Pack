@@ -1,0 +1,137 @@
+{
+  "multipart": [
+    {
+      "when": {
+        "facing": "down",
+        "waterlogged": "false"
+      },
+      "apply": {
+        "model": "create:block/copper_valve_handle",
+        "x": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "down",
+        "waterlogged": "true"
+      },
+      "apply": {
+        "model": "create:block/copper_valve_handle",
+        "x": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "waterlogged": "false"
+      },
+      "apply": {
+        "model": "create:block/copper_valve_handle",
+        "x": 90,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "waterlogged": "true"
+      },
+      "apply": {
+        "model": "create:block/copper_valve_handle",
+        "x": 90,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "waterlogged": "false"
+      },
+      "apply": {
+        "model": "create:block/copper_valve_handle",
+        "x": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "waterlogged": "true"
+      },
+      "apply": {
+        "model": "create:block/copper_valve_handle",
+        "x": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "waterlogged": "false"
+      },
+      "apply": {
+        "model": "create:block/copper_valve_handle",
+        "x": 90,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "waterlogged": "true"
+      },
+      "apply": {
+        "model": "create:block/copper_valve_handle",
+        "x": 90,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "up",
+        "waterlogged": "false"
+      },
+      "apply": {
+        "model": "create:block/copper_valve_handle"
+      }
+    },
+    {
+      "when": {
+        "facing": "up",
+        "waterlogged": "false"
+      },
+      "apply": {
+        "model": "create:block/copper_valve_handle"
+      }
+    },
+    {
+      "when": {
+        "facing": "up",
+        "waterlogged": "true"
+      },
+      "apply": {
+        "model": "create:block/copper_valve_handle"
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "waterlogged": "false"
+      },
+      "apply": {
+        "model": "create:block/copper_valve_handle",
+        "x": 90,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "waterlogged": "true"
+      },
+      "apply": {
+        "model": "create:block/copper_valve_handle",
+        "x": 90,
+        "y": 270
+      }
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "multipart": [
+    {
+      "when": {
+        "AND": [
+          { "axis": "x" },
+          { "OR": [ { "waterlogged": "true" }, { "waterlogged": "false" } ] }
+        ]
+      },
+      "apply": {
+        "model": "create:block/track/bogey/top",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "AND": [
+          { "axis": "x" },
+          { "waterlogged": "false" }
+        ]
+      },
+      "apply": {
+        "model": "create:block/track/bogey/bogey_frame",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "AND": [
+          { "axis": "x" },
+          { "OR": [ { "waterlogged": "true" }, { "waterlogged": "false" } ] }
+        ]
+      },
+      "apply": {
+        "model": "create:block/track/bogey/bogey_wheel",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "AND": [
+          { "axis": "z" },
+          { "OR": [ { "waterlogged": "true" }, { "waterlogged": "false" } ] }
+        ]
+      },
+      "apply": {
+        "model": "create:block/track/bogey/top"
+      }
+    },
+    {
+      "when": {
+        "AND": [
+          { "axis": "z" },
+          { "OR": [ { "waterlogged": "true" }, { "waterlogged": "false" } ] }
+        ]
+      },
+      "apply": {
+        "model": "create:block/track/bogey/bogey_frame"
+      }
+    },
+    {
+      "when": {
+        "AND": [
+          { "axis": "z" },
+          { "OR": [ { "waterlogged": "true" }, { "waterlogged": "false" } ] }
+        ]
+      },
+      "apply": {
+        "model": "create:block/track/bogey/bogey_wheel"
+      }
+    }
+  ]
+}
