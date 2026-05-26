@@ -27,6 +27,14 @@
     {
       "when": {
         "AND": [
+          { "axis": "x" }
+        ]
+      },
+      "apply": { "model": "create:block/track/bogey/top", "y": 90 }
+    },
+    {
+      "when": {
+        "AND": [
           { "axis": "z" }
         ]
       },
@@ -47,6 +55,14 @@
         ]
       },
       "apply": { "model": "bluemap_create:block/track/bogey/bogey_wheel" }
+    },
+    {
+      "when": {
+        "AND": [
+          { "axis": "z" }
+        ]
+      },
+      "apply": { "model": "create:block/track/bogey/top" }
     }
   ]
 }
